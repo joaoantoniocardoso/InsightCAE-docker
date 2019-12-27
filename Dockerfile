@@ -7,7 +7,7 @@ RUN apt-key adv --recv-key --keyserver keys.gnupg.net 79F5CBA4 \
     apt-get update \
     apt-get install -y \
         insightcae-base \ 
-		insightcae-cad \
+	insightcae-cad \
     rm -rf /var/lib/apt/lists/*
 
 echo "source /usr/bin/insight_setenv.sh" >> /root/.bashrc
