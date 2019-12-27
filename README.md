@@ -1,2 +1,2 @@
 # InsightCAE-docker
-A docker for [insightcae](https://github.com/hkroeger/insightcae).
+A docker for [InsightCAE](https://github.com/hkroeger/InsightCAE).
