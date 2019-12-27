@@ -2,7 +2,7 @@ FROM ubuntu:xenial
 
 # PREPARE, INSTALL, CLEAN
 RUN apt-key adv --recv-key --keyserver keys.gnupg.net 79F5CBA4 \
-    echo "deb http://downloads.silentdynamics.de/ubuntu xenial main" >> /etc/apt/sources.list && \
+    echo "deb http://downloads.silentdynamics.de/ubuntu xenial main" >> /etc/apt/sources.list \
     echo "# deb-src http://downloads.silentdynamics.de/ubuntu xenial main" >> /etc/apt/sources.list \
     apt-get update \
     apt-get install -y \
